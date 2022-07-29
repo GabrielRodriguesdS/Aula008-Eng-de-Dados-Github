@@ -12,7 +12,7 @@ Repositório de códigos do bootcamp de ED de Maio/22
 * Rafael 
 
 
-## Tempo vídeoaulas Git + Github e Introdução à AWS
+## Tempo vídeoaulas Git + Github e Introdução à AWS .
 
 Git + GitHub
 07:38 + 05:22 + 07:42 + 07:28 + 13:35 + 06:14 + 04:01 + 08:40 + 07:06 + 09:10 = 77 = 1h17min
