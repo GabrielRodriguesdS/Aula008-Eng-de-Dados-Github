@@ -1,0 +1,26 @@
+version: "3" #indica a versão
+services:    #cria um serviço, no caso, um banco de dados.
+    db:
+        image: postgres             #imagem que iremos utilizar, no caso, postgres.
+        container_name: "pg_container"        #nome do container
+        environment:            #variaveis de ambientes
+            - POSTGRES_USER=root
+            - POSTGRES_PASSWORD=root
+            - POSTGRES_DB=test_db
+        ports:
+            - "5432:5432"
+        volumes:
+            - "./db/var/lib/postgressql/data/"
+
+    bi:
+        image: metabase/metabase
+        ports: 
+            - "3000:3000"
+        links:
+            - db
+
+### comandos docker-compose ###
+
+# comando para subir uma rede com todos banco de dados na minha pasta(nesse caso só tem um db) = "   docker-compose up db   "   
+# como acessar? UTILIZAR O DBEAVER e criar a conexão com o banco de dados
+# docker-compose down   =  para derrubar a rede criada
