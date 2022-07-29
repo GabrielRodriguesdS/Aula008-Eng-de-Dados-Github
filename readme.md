@@ -6,7 +6,8 @@ Repositório de códigos do bootcamp de ED de Maio/22
 
 ## Facilitadores
 
-* BootcampHow - [Site](https://howedu.com.br)
+
+* How Bootcamp- [Site](https://howedu.com.br)
 * André Sionek - [Github](https://github.com/andresionek91)
 * Rhuan Lima - [GitHub](https://github.com/rhuanlima)
 * Rafael 
@@ -19,3 +20,5 @@ Git + GitHub
 
 Introdução à AWS
 07:06 + 05:38 + 03:03 + 06:18 + 16:07 = 39min
+
+!
